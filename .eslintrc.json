@@ -1,0 +1,25 @@
+{
+  "extends": "@meteorjs/eslint-config-meteor",
+  "env": {
+    "meteor": true
+  },
+  "rules": {
+    "padded-blocks": "off",
+    "indent": [
+      "error",
+      2
+    ],
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-curly-spacing": [1, "always"],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "comma-dangle": "off",
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}

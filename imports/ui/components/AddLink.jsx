@@ -1,7 +1,9 @@
+import {
+  Col, Row, Button, Container, FormGroup, Label, Form, Input
+} from 'reactstrap';
 import React from 'react';
-import { useInput } from '../hooks/useInput';
-import { Col, Row, Button, Container, FormGroup, Label, Form, Input } from 'reactstrap';
 import { Meteor } from 'meteor/meteor';
+import useInput from '../hooks/useInput';
 
 const AddLink = () => {
   const { value: title, bind: bindTitle } = useInput('');
